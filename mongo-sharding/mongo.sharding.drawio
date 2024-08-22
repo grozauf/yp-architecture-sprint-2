@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-08-18T07:34:05.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="-YaC7aucO-pGDyknwLZ9" version="24.6.4" type="device">
+  <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
+    <mxGraphModel dx="1560" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-2" target="D9CXgukpsAMVDsTzwWb0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="609" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="669" />
+              <mxPoint x="510" y="669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-2" value="shard-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="150" y="559" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-2" value="configSrv&lt;div&gt;&lt;br&gt;&lt;div&gt;Конфигурационный&lt;/div&gt;&lt;div&gt;сервер&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="D9CXgukpsAMVDsTzwWb0-3" target="D9CXgukpsAMVDsTzwWb0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-3" value="&lt;div&gt;mongos_router&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Роутер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="389" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D9CXgukpsAMVDsTzwWb0-4" target="D9CXgukpsAMVDsTzwWb0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-4" value="shard-2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="559" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="D9CXgukpsAMVDsTzwWb0-3" target="zA23MoTUsTF4_91t8viU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="D9CXgukpsAMVDsTzwWb0-3" target="D9CXgukpsAMVDsTzwWb0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="159" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-3" value="pymongo-api&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="D9CXgukpsAMVDsTzwWb0-7" vertex="1">
+          <mxGeometry width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-1" value="Драйвер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="D9CXgukpsAMVDsTzwWb0-7">
+          <mxGeometry x="35" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=-0.079;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="D9CXgukpsAMVDsTzwWb0-1" target="D9CXgukpsAMVDsTzwWb0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-12" value="В качестве ключа шардирования выбрано поле name, т.к. в API сервиса есть ручка, которая достаёт пользователя по его имени." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D9CXgukpsAMVDsTzwWb0-13" value="БД хранит данные по пользователям.&amp;nbsp;&lt;div&gt;Есть два поля: name и age&lt;/div&gt;&lt;div&gt;И есть скрытое поле: _id&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="300" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
